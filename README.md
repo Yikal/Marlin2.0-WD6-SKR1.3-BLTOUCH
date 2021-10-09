@@ -5,6 +5,13 @@ Currently, I have everything working except the BLTouch module.
 
 See the wiring diagrams in [wiring](https://github.com/Yikal/Marlin2.0-WD6-SKR1.3-BLTOUCH/tree/2.0.x/) to learn how I wired everything up.
 
+I also bought 3 breakout boards, I've linked similiar boards as examples:
+- [2 x 8 Pins idc16 ](https://www.aliexpress.com/item/32682887668.html)
+- [PT100 Amplifier board](https://www.aliexpress.com/item/32829690782.html)
+- [heated bed mosfet](https://www.aliexpress.com/item/10000396885973.html)
+
+This repository is only supposed to show what I did to upgrade my printer.
+Everything you do to your printer is on you and I will assume no liabillity if you mess up.
 
 # Marlin 3D Printer Firmware
 
