@@ -1,3 +1,11 @@
+# Marlin Firmware for a Wanhao Duplicator 6, equipped with a SKR 1.3 mainboard and BLTOUCH
+
+This repository is my attempt at upgrading my Wanhao Duplicator 6 with TMC 2208 steppers to be quieter and profit off the increased computing power of the SKR 1.3 board.
+Currently, I have everything working except the BLTouch module.
+
+See the wiring diagrams in [wiring](https://github.com/Yikal/Marlin2.0-WD6-SKR1.3-BLTOUCH/tree/2.0.x/) to learn how I wired everything up.
+
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
