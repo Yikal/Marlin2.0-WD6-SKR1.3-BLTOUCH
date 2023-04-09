@@ -1106,7 +1106,7 @@
  * Override with M201
  *                                      X, Y, Z [, I [, J [, K]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 100, 7500 } //conservative acceleration
+#define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 100, 3000 } //conservative acceleration
 
 //#define LIMITED_MAX_ACCEL_EDITING     // Limit edit via M201 or LCD to DEFAULT_MAX_ACCELERATION * 2
 #if ENABLED(LIMITED_MAX_ACCEL_EDITING)
@@ -1378,7 +1378,7 @@
  *     O-- FRONT --+
  */
 //measure yourself if these measurements fit!
-#define NOZZLE_TO_PROBE_OFFSET { -38, -30, 0 }
+#define NOZZLE_TO_PROBE_OFFSET { -38, -30, -2.6 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
